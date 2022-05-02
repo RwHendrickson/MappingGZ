@@ -17,3 +17,11 @@ CREATE EXTENSION address_standardizer_data_us;
 -- Enable US Tiger Geocoder
 CREATE EXTENSION postgis_tiger_geocoder;
 
+CREATE ROLE admin WITH LOGIN SUPERUSER CREATEDB CREATEROLE PASSWORD 'SOMEPASSWD';
+CREATE ROLE bkotewall WITH LOGIN CREATEDB CREATEROLE PASSWORD 'SOMEPASSWD';
+CREATE ROLE geogz WITH LOGIN PASSWORD 'geogzChee6tho';
+CREATE database geodjangogz ;
+GRANT ALL privileges on geodjangoz to bkotewall ;
+GRANT ALL privileges on geodjangoz to admin ;
+GRANT ALL prvilieges on geodjangoz to geogz ;
+

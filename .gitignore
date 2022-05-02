@@ -25,3 +25,4 @@ Prototype/Notebooks/CleaningData/Demographics/.ipynb_checkpoints/Cleaning_Census
 *.pyc
 *.ipyc
 .env
+geodjangogz/geodjangogz/__pycache__/*

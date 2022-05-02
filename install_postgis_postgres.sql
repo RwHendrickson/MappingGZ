@@ -21,7 +21,7 @@ CREATE ROLE admin WITH LOGIN SUPERUSER CREATEDB CREATEROLE PASSWORD 'SOMEPASSWD'
 CREATE ROLE bkotewall WITH LOGIN CREATEDB CREATEROLE PASSWORD 'SOMEPASSWD';
 CREATE ROLE geogz WITH LOGIN PASSWORD 'geogzChee6tho';
 CREATE database geodjangogz ;
-GRANT ALL privileges on geodjangoz to bkotewall ;
-GRANT ALL privileges on geodjangoz to admin ;
-GRANT ALL prvilieges on geodjangoz to geogz ;
+GRANT ALL privileges on database geodjangogz to bkotewall ;
+GRANT ALL privileges on database geodjangogz to admin ;
+GRANT ALL prvilieges on database geodjangogz to geogz ;
 

@@ -24,3 +24,4 @@ Prototype/Notebooks/CleaningData/Demographics/.ipynb_checkpoints/Cleaning_Census
 *.swp
 *.pyc
 *.ipyc
+.env

@@ -1,6 +1,6 @@
 ## Welcome to the Mapping Green Zones Website
 
-[Link to the map](https://rwhendrickson.github.io/MappingGZ/MVP.html)
+[Link to the map](https://rwhendrickson.github.io/MappingGZ/MVP_2)
 
 ### One sentence description:
 
